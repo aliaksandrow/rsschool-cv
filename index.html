@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0 auto;
+        }
+        h1, h2 {
+            padding-left: 2%;
+            text-transform: capitalize;
+        }
+        p,div {
+            width: 70%;
+            padding-left: 20px;
+            font-size: 20px;
+        }
+        a {
+            text-decoration: none;
+        }
+        img {
+            width: 100px;
+            height: 100px;
+        }
+        header,main {
+            display: flex;
+            flex-direction: row;
+            width: 80%;
+            margin: 0 auto;
+            padding-top: 5%;
+            border-bottom: 1px solid black;
+        }
+        main {
+            flex-direction: column;
+            border-bottom: none;
+        }
+        
+        .link {
+            width: 120px;
+            height: 30px;
+            margin: 20px;
+        }
+        footer {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            background: #000;
+        }
+        footer a {
+            font-size: 20px;
+            color: red;
+        }
+    </style>
+    <title>document</title>
+</head>
+<body>
+    
+    <header>
+        <img src="./images/IMG_20200814_143744.jpg" alt="image">
+        <h1>Alexandrov Maksim</h1>
+    </header>
+    <main>
+        <section>
+        <h2>summary</h2>
+        <p> I am a passionate and detail-oriented front-end developer.
+            I want to get a decent and interesting job that will allow me to develop professionally and emotionally.</p>
+            </section>
+            <section>
+                <h2>skills</h2>
+                <p>HTML, CSS, JS, React, Git</p>
+            </section>
+            <section>
+                <h2>code example</h2>
+                <div>
+                    function solve(str) {<br>
+                        const tx= [...str.split(` `).join(``)];
+                        return str.replace(/\S/g, a=> tx.pop())
+                      }
+                </div>
+            </section>
+            <section>
+                <h2>education</h2>
+                <p>Udemy, Scrimba.com, Codewars.com, Medium.com / <a href="https://github.com/aliaksandrow/Creativia">
+                Creativia progect
+            </a>
+        </p>
+            </section>
+            <section>
+                <h2>english</h2>
+                <p>Pre-Intermediate</p>
+            </section>
+    </main>
+    <footer>
+      <div class="link">
+          <a href="aliaksandrou@gmail.com"> e-mail </a>
+      </div>
+    </footer>
+</body>
+</html>
